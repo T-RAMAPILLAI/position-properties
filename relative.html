@@ -1,0 +1,34 @@
+Relative:
+a.They are  affected by top ,left, bottom or right
+b.A space is created for them in the document
+c.It will affect the document flow
+
+<div id="one"></div>
+<div id="two"></div>
+<div id="three"></div>
+
+<style>
+    #one{
+        background-color: red;
+        height:50px;
+        width:50px;
+        margin:5px;
+        position:static
+    }
+    #two{
+        background-color: green;
+        height: 50px;
+        width:50px;
+        margin:5px;
+        top: 30px;
+        left:25px;
+        position:relative;
+    }
+    #three{
+        background-color: blue;
+        height: 50px;
+        width: 50px;
+        margin:5px;
+        position:relative
+    }
+</style>

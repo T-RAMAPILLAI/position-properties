@@ -1,0 +1,14 @@
+h1{
+    background:linear-gradient(45deg,red,blue);
+    text-align: center;
+}
+
+div{
+   background: linear-gradient(45deg,red,yellow);
+   width:300px;
+   height:150px;
+   font-size: 20px;
+   text-align: center;
+   margin-left: 600px;
+   
+}

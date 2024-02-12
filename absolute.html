@@ -1,0 +1,26 @@
+Absolute
+a.They are  affected by top ,left, bottom or right 
+b.It will affect the document flow
+c.no space is created 
+d.it will be positioned w.r.t first positioned element
+
+<div>
+    <h1>Absolute</h1>
+</div>
+
+<style>
+    div{
+        margin-top: 200px;
+        margin-left:100px;
+        border: solid black 2px;
+        width:200px;
+        height: 100px;
+        position:relative
+    }
+
+    h1{
+        position:absolute;
+        left: 50px;
+        top: 50px;
+    }
+</style>
